@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player App</title>
+    <link rel="stylesheet" href="practice.css">
+    <script src="https://kit.fontawesome.com/7a4b62b0a4.js"crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box">
+
+            <div class="upperPart">
+                <div class="circle">
+                    <i class="fas fa-chevron-left" style="color: rgb(248, 102, 126);"></i>
+                </div>
+                <div class="circle">
+                    <i class="fas fa-bars" style="color: rgb(248, 102, 126);"></i>
+                </div>
+            </div>
+
+            <div class="middlePart">
+                <img src="tushar(300x300).jpg" alt="Click Here" width="200px" height="200px">
+                  <div class="title">
+                    <h5>Akhiyan Gulab</h5>
+                    <h6>Shahid Kapoor and Sonam Kappor</h6>
+                  </div>
+                  <audio id="song" onloadedmetadata="metaLoaded()"> 
+                    <source src="./Akhiyan Gulab(PagalWorld.com.cm).mp3" type="audio/mpeg">
+                  </audio>
+                  <input type="range" min="1" max="100" value="0" class="slider" id="progress" onchange="changeAudio()">
+            </div>
+            <div class="lastPart">
+                <div class="lastCircle">
+                <i class="fas fa-backward" style="color: rgb(249, 121, 143); background-color: white; font-size: 20px; padding: 14px;
+                border-radius: 25px;"></i>
+                </div>
+                <div class="lastMiddleCircle" onclick="playPause()">
+                    <i id="ctrlIcon" class="fas fa-play" style="color: white; background-color:rgb(249, 121, 143); color: white;
+                    padding: 21px 23px;
+                    border-radius: 35px;
+                    font-size: 25px;"></i>
+                </div>
+                <div class="lastCircle">
+                    <i class="fas fa-forward" style="color: rgb(249, 121, 143); background-color: white; font-size: 20px; padding: 14px;
+                    border-radius: 25px;"></i>
+                    <i class="fas fa-stop" onclick="mutedFunction()"></i>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+<script src="practice.js"></script>
+</body>
+</html>
