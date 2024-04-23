@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+*{
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+html, body{
+height : 100%;
+width : 100%;
+background-image: url(../img/bg.jpg);
+/* background-color: red; */
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100vw 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#scoreBox{
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+#highScoreBox{
+    position: absolute;
+    top: 50px;
+    right: 140px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+
+}
+
+
+#board{
+background: linear-gradient(#e0e2a7,#bbffbc);
+width: 95vmin;
+height: 92vmin;
+border: 2px solid black;
+display: grid;
+grid-template-rows: repeat(18,1fr);
+grid-template-columns: repeat(18,1fr);
+}
+
+.head{
+    background: linear-gradient(rgb(255, 98, 98),rgb(255, 255, 255));
+    border: 1.3px solid black;
+    border-radius: 35%;
+    /* transform: scale(2%); */
+}
+.snake{
+    background-color: rgb(255, 255, 97);
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.food{
+    background: linear-gradient(#8eff59 , #01de01);
+    border-radius: 35%;
+    border: 1px solid black;
+}
+
+
+
