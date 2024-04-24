@@ -23,7 +23,7 @@ const profileData = {
   education: [
     {
       alma: "Dr. K. N. Modi Institute of Engineering and Technology",
-      duration: "2014 - 2018",
+      duration: "2021 - 2025",
       std: "B.Tech. (Computer Science & Engineering)",
       score: "8.4 CGPA"
     },
