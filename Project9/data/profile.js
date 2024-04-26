@@ -25,12 +25,12 @@ const profileData = {
       alma: "Dr. K. N. Modi Institute of Engineering and Technology",
       duration: "2021 - 2025",
       std: "B.Tech. (Computer Science & Engineering)",
-      score: "8.4 CGPA"
+      score: "7.5 CGPA"
     },
     {
       alma: "Tulsi Ram Maheshwari Public School",
       duration: "2019 - 2021",
-      std: "Class XI-XII (PCM)",
+      std: "Class XII (PCM)",
       score: "8.2 CGPA"
     },
   ],
@@ -95,7 +95,7 @@ const profileData = {
         // to <strong>React-Redux</strong> codebase with a whole new design by developing a React-based UI component library and utilities, 
         // which are being used across different projects.`,
         // `Other responsibilities involve adding new features, and patching/fixing bugs on existing features as well as on-call issues.`
-        `Successfully completed a 3-month intensive training and internship program with Unified Mentor, specializing in fundamental web development technologies like <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Javascript</strong>. Demonstrated proficiency by independently conceptualizing and developing various <strong>Web-based projects</strong>, showcasing problem-solving abilities and a keen eye for detail. Eager to apply acquired skills and contribute to impactful projects in a professional setting`
+        `Successfully completed a 3-month intensive training and internship program with Unified Mentor, specializing in fundamental web development technologies like <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Javascript</strong>. Demonstrated proficiency by independently conceptualizing and developing various <strong>Web-based projects</strong>, showcasing problem-solving abilities. Eager to apply acquired skills and contribute to impactful projects in a professional setting.<a href="https://www.unifiedmentor.com/verifyumint.html?umid=UM20230890" target="__blank"><strong style="color: rgb(0, 145, 255);">(Credential)</strong></a>`
       ]
     },
     // {
@@ -166,18 +166,6 @@ const profileData = {
       date: "20 May 2023"
     }
   ],
-  certifications: [
-    {
-      desc: `<strong>Git and Github For Beginners </strong> by <strong>IBM</strong>.
-      (<a target='_blank' rel='noreferrer' href='https://skills.yourlearning.ibm.com/certificate/share/ff2a17f859ewogICJsZWFybmVyQ05VTSIgOiAiMTcxNjU2OVJFRyIsCiAgIm9iamVjdFR5cGUiIDogIkFDVElWSVRZIiwKICAib2JqZWN0SWQiIDogIlVSTC1SR09KNVlIN0VWSyIKfQ36f68afcbd-10'>https://ibmskillbuild/X3HEdR</a>)`,
-      date: "15 August 2023"
-    },
-    {
-      desc: `<strong>Introduction to Pointers in C++</strong> by <strong>Coding Ninja</strong>
-       (<a target='_blank' rel='noreferrer' href='https://ninjasfiles.s3.amazonaws.com/certificate-428152-330ece73e188c81533033d7362165b24.pdf'>
-       https://goo.gl/X3HEdR</a>)`,
-      date: "20 May 2023"
-    }
-  ],
+
   events: []
 };
