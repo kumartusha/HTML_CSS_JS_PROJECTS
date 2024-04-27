@@ -358,6 +358,7 @@ button{
   transition: 0.5s ease-in-out;
   border: none;
 }
+
 .contactBtn:hover{
   background: var(--main-color);
   box-shadow: 0 0 10px var(--main-color),
@@ -788,6 +789,7 @@ text-align: center;
     & button{
         padding: 0.5rem;
       font-size: 1.2rem;
+      color: black;
     }
     & p{
         font-size: 1.1rem;
