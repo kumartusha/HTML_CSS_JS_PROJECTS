@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>Portfolio Website</title>
+        <link rel='stylesheet' href='index.css'>
+        <link rel="shortcut icon" href="./images/image.jpg" type="image/x-icon">
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css'>
+  <!-- Only Used for the % version of the Font Awesome -->
+  
+        <link
+        rel='stylesheet'
+        href='https://use.fontawesome.com/releases/v5.8.1/css/all.css'
+        integrity='sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf'
+        crossorigin='anonymous'
+      />
+
+
+    </head>
+<body>
+    <!--  Header Section  -->
+    <header class="header">
+        <nav class="navbar mainContainer">
+            <!-- <h1 class="logo">Tushar <span>Kumar</span></h1> -->
+            <a href="#home" class="logo">
+                <!-- Tushar -->
+                <span>Portfolio</span>
+            </a>
+
+            
+            <ul>
+                <i class="fas fa-bars" id="trackIcon" onclick="iconToggle()"></i>
+                <li><a href="#heroSection">Home</a></li>
+                <li><a href="#educationSection">Education</a></li>
+                <li><a href="#skillSection">Skill</a></li>
+                <li><a href="#projectSection">Projects</a></li>
+                <li><a href="#contactSection">Contact</a></li>
+                <li><i class="fas fa-moon moon" onclick="themeChange(event)"></i></li>
+            </ul>
+            
+        </nav>
+
+        <div class="menuMobile mainContainer">
+            <ul>
+                <li><a href="#heroSection" onclick="iconToggle()">Home</a></li>
+                <li><a href="#educationSection" onclick="iconToggle()">Education</a></li>
+                <li><a href="#skillSection" onclick="iconToggle()">Skill</a></li>
+                <li><a href="#projectSection" onclick="iconToggle()">Projects</a></li>
+                <li><a href="#contactSection" onclick="iconToggle()">Contact</a></li>
+                <!-- <li><i class="fas fa-moon moon2" onclick="themeChange(event)" style="color: black;" ></i></li> -->
+            </ul>
+        </div>
+
+    </header>
+     <!-- <main> -->
+        
+        <section id="heroSection">
+            <div class="heroContainer mainContainer">
+                <div class="textContent">
+                          <h1>Hi, It's <span>Tushar Kumar</span></h1>
+                          <h2>Proficient in <span class="auto-type">Weber</span></h2>
+                          <p>I am an innovative and passionate developer with a primary interest in <strong>JavaScript</strong>
+                            and its applications. Proficient in learning and implementing sophisticated <strong>UI/UX</strong> with
+                             Progressive Web Application.</p>
+                          <div class="iconContent">
+                            <div class=" icon linkedIn"><a href="https://www.linkedin.com/in/tushar-kumar-670986226/"><i class="fab fa-linkedin"></i></a></div>
+                            <div class=" icon twitter"><a href="https://twitter.com/k93886846"><i class="fab fa-twitter"></i></a></div>
+                            <div class=" icon instagram"><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></div>
+                            <div class=" icon facebook"><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></div>
+                            <div class=" icon github"><a href="https://github.com/kumartusha"><i class="fab fa-github"></i></a></div>
+                          </div>
+                          <div class="buttonContainer">
+                            <a target="_blank" onclick="showDownloadToast()" href="./resume/index.html"><button class="cvBtn">Resume</button></a>
+                            <a href="mailto:kumartushar78867@gmail.com" target="_blank"><button class="contactBtn">Contact</button></a>
+                          </div>
+
+                </div>
+               <div class="imageContainer">
+                <img src="./images/image.jpg" alt="Tushar Kumar" id="themeImage" class="animate__jackInTheBox animate__animated">
+               </div>
+            </div>
+        </section>
+
+
+    
+        <section id="educationSection">
+            <div class="education" id="education">
+                <h2 class="heading">Education</h2>
+                   <div class="timeline-items mainContainer">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2019</div>
+                        <div class="timeline-content">
+                            <h3>Secondary School</h3>
+                            <p>Completed 10th standard education with distinction from <strong>Tulsi Ram Maheshwari Public School</strong>, specializing in the PCM stream. Demonstrating strong analytical and Problem Skill Abilities</p>
+                        </div> 
+                    </div>
+                   
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2021</div>
+                        <div class="timeline-content">
+                            <h3>Intermediate School</h3>
+                            <p>Graduated with distinction from <strong>Tulsi Ram Maheshwari Public School</strong> in 2021, specializing in the PCM stream. Acquired comprehensive knowledge and problem-solving skills.</p>
+                        </div> 
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2023</div>
+                        <div class="timeline-content">
+                            <h3>Internship</h3>
+                            <p>Successfully completed a 3-month intensive training and internship program with <strong>Unified Mentor</strong>, specializing in fundamental Web development technologies like <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Javascript</strong></p>
+                        </div> 
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Persuing..</div>
+                        <div class="timeline-content">
+                            <h3>Higher Education Institution</h3>
+                            <p>Currently pursuing B.Tech in Computer Science and Engineering at <strong>Dr. K. N. Modi Institute of Engineering and Technology</strong>, with a keen interest in <strong>Web development</strong> to create dynamic and interactive websites.</p>
+                        </div> 
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="skillSection">
+
+            <h1>Skills</h1>
+            <div class="skillContainer mainContainer">
+                <div class="box" id="item1">
+                    <h2>Frontend Development</h2>
+                    <p>Crafted responsive and user-friendly web interfaces using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. Leveraged <strong>React.js</strong> to build dynamic and interactive features, ensuring seamless user experiences across devices.</p>
+                </div>
+                <div class="box" id="item2">
+                    <h2>Video Editing</h2>
+                    <p>Skilled in video editing using <strong>Filmora</strong> and <strong>Canva</strong>. Capable of creating engaging visual content and enhancing audio quality for professional results.</p>
+                </div>
+                <div class="box" id="item3">
+                    <h2>Graphics Designing</h2>
+                    <p>Skilled in graphic design using <strong>Figma</strong>, <strong>Sketch</strong>, and <strong>Canva</strong>. Proficient in creating visually appealing designs for print and digital media, ensuring brand consistency and effective communication.</p>
+                </div>
+                <div class="box" id="item4">
+                    <h2>Version Control</h2>
+                    <p>Proficient in <strong>Git</strong> for version control and deployment using <strong>Vercel</strong> and <strong>Netlify</strong>. Skilled in frontend frameworks and browser developer tools for building and improving web applications.</p>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- <img src="" alt=""> -->
+        <section id="projectSection">
+              <h1>Projects</h1>
+            <div class="projectContainer mainContainer">
+                   <div class="cardCover">
+                    <div class="card">
+                           <img src="./images/ticTacToe.jpeg" alt="Something went wrong">
+                           <h2 class="projectName">Tic Tac Toe </h2>
+                           <p class="projectDescription"><strong>Tic Tac Toe</strong> play against a computer. <strong>Simple rules</strong>, addictive gameplay. <strong>Sleek design</strong>, <strong>responsive controls</strong>. Endless fun for all ages.</p>
+                           <div class="buttonContainer">
+                            <a target="_blank" href="https://github.com/kumartusha/HTML_CSS_JS_PROJECTS"><button class="cvBtn">Github</button></a>
+                            <a href="https://tictactoe-teal-omega.vercel.app/" target="_blank"><button class="contactBtn">Demo</button></a>
+                          </div>
+                        </div>
+                   </div>
+                   <div class="cardCover">
+                    <div class="card">
+                           <img src="https://t3.ftcdn.net/jpg/07/03/64/60/240_F_703646033_LMBAh5nLvZuYeovK3x5ZaQFgXhThvAIQ.jpg" alt="Something went wrong">
+                           <h2 class="projectName">Snake Mania</h2>
+                           <p class="projectDescription">Classic arcade fun in <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. Control operations of snake like food ,collision ,etc. Enjoy seamless gaming on any device.</p>
+                           <div class="buttonContainer">
+                            <a target="_blank" href="https://github.com/kumartusha/HTML_CSS_JS_PROJECTS"><button class="cvBtn">Github</button></a>
+                            <a href="https://cobra-chase.vercel.app/" target="_blank"><button class="contactBtn">Demo</button></a>
+                          </div>
+                         </div>
+                   </div>
+                   <div class="cardCover">
+                    <div class="card">
+                           <img src="https://t3.ftcdn.net/jpg/07/46/63/22/240_F_746632243_sy2BLdpJJ7sT89airlzwIcoVfDn3q3R1.jpg" alt="Something went wrong">
+                           <h2 class="projectName">Weather Web</h2>
+                           <p class="projectDescription">Developed a weather app with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, integrating APIs like <strong>OpenWeatherMap</strong> for real-time forecasts.</p>
+                           <div class="buttonContainer">
+                            <a target="_blank" href="https://github.com/kumartusha/HTML_CSS_JS_PROJECTS"><button class="cvBtn">Github</button></a>
+                            <a href="https://weather-app-ten-ruddy-69.vercel.app/" target="_blank"><button class="contactBtn">Demo</button></a>
+                          </div>
+                        </div>
+                   </div>
+                   <div class="cardCover">
+                    <div class="card">
+                           <img src="https://t3.ftcdn.net/jpg/04/49/57/30/240_F_449573050_O5kWe0przmBIdhKm08wvQslcXyLxMUYj.jpg" alt="Something went wrong">
+                           <h2 class="projectName">Expense Tracker Web</h2>
+                           <p class="projectDescription">Expense Tracker app,User can Easily <strong>Add</strong>, <strong>Edit</strong>, and <strong>Delete</strong> expenses and create a comprehensive list.</p>
+                           <div class="buttonContainer">
+                            <a target="_blank" href="https://github.com/kumartusha/HTML_CSS_JS_PROJECTS"><button class="cvBtn">Github</button></a>
+                            <a href="https://expenses-tracker-simple-website.netlify.app/" target="_blank"><button class="contactBtn">Demo</button></a>
+                          </div>
+                        </div>
+                   </div>
+                   <div class="cardCover">
+                    <div class="card">
+                           <img src="https://t4.ftcdn.net/jpg/03/16/55/03/240_F_316550366_6IEuedAJqZ9JYIqnQqmraoLPpf6qfPCb.jpg" alt="Something went wrong">
+                           <h2 class="projectName">Tech Trove Ecommerce</h2>
+                           <p class="projectDescription">Tech Trove Ecommerce Website Using <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>Vite </strong>and <strong>Vanilla JavaScript</strong> to provide a seamless shopping experience by Leveraging <strong>JSON </strong>Data.</p>
+                           <div class="buttonContainer">
+                            <a target="_blank" href="https://github.com/kumartusha/Ecommerce_Website"><button class="cvBtn">Github</button></a>
+                            <a href="https://ecommerce-modern-website.netlify.app/" target="_blank"><button class="contactBtn">Demo</button></a>
+                          </div>
+                        </div>
+                   </div>
+                   <div class="cardCover">
+                    <div class="card">
+                           <img src="https://t3.ftcdn.net/jpg/05/90/82/32/240_F_590823233_97YNah2bYsEW9llwf7UNK5L3r1cM0Ei3.jpg" alt="Something went wrong">
+                           <h2 class="projectName">Study Buddy</h2>
+                           <p class="projectDescription">Project</strong> utilizes <strong>Core Java</strong>, <strong>Java Swing</strong>, and <strong>Database Management</strong>, featuring dual user and admin functionalities.</p>
+                           <div class="buttonContainer">
+                            <a target="_blank" href="https://github.com/kumartusha/Study-Buddy-Project"><button class="cvBtn">Github</button></a>
+                            <a href="https://github.com/kumartusha/Study-Buddy-Project" target="_blank"><button class="contactBtn">Demo</button></a>
+                          </div>
+                        </div>
+                   </div>
+            </div>
+        </section>
+
+        <section id="contactSection">
+            <h1>Contact <span>Me</span></h1>
+                       <form class="contactContainer mainContainer" name="submit-to-google-sheet">
+                        <div class="inputContainer">
+                            <input  autocomplete="off" class="notEmpty" required type="text" placeholder="Full Name" name="FullName">
+                            <input autocomplete="off" class="notEmpty" required type="email" placeholder="Email" name="Email">
+                            <input autocomplete="off" class="notEmpty" required type="tel" placeholder="Mobile Number" name="MobileNumber">
+                            <input autocomplete="off" class="notEmpty" required type="text" placeholder="Subject" name="Subject">
+                        </div>
+
+                        <div class="textAreaContainer">
+                            <textarea required class="notEmpty" name="Message" id="textarea" cols="30" rows="8" placeholder="Write Your Message"></textarea>
+                            <button onclick="respondPop(event)" class="sendMessage" type="submit">
+                                Send Message
+                            </button>
+                        </div>
+                       </form>
+                       <!-- Pop Up Message -->
+                       <div class="responseMessage" id="respondId">
+                        <div class="respondIcon">
+                           <i class="far fa-check-circle"></i>
+                        </div>
+                        <h4>Thank You!</h4>
+                        <p>Your respond has been successfully Submitted. Thanks!</p>
+                        <button onclick="removeResponse()" class="respondButton">OK</button>
+                   </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footerSection">
+            <div class="footerContainer mainContainer">
+                <div class="iconContent">
+                    <div class=" icon linkedIn"><a href="https://www.linkedin.com/in/tushar-kumar-670986226/"><i class="fab fa-linkedin"></i></a></div>
+                    <div class=" icon twitter"><a href="https://twitter.com/home"><i class="fab fa-twitter"></i></a></div>
+                    <div class=" icon instagram"><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></div>
+                    <div class=" icon facebook"><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></div>
+                    <div class=" icon github"><a href="https://github.com/kumartusha"><i class="fab fa-github"></i></a></div>
+                    
+                  </div>
+                  <p>&copy; Tushar Kumar - All Right Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src='index.js'></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+        
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwpYYsJ4lCblrlYHWDsfVXnqX9oXIgMGDb0BvYYzmaewly1fcKVG_u5FwD3JFNEyC0/exec';
+      
+    const respondId = document.querySelector("#respondId");
+    const respondMessageEl = document.querySelector(".responseMessage");
+
+const form = document.forms['submit-to-google-sheet'];
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response =>{
+    //   alert("Response Send Successfully");
+      console.log("EveryThing is OK");
+    form.reset();
+    })
+    .catch(error => console.error('Error!', error.message))
+    
+})
+
+var typed = new Typed(".auto-type", {
+    strings: ["Web Development","Graphics Design","Video Editing","UX/UI Designer"],
+    typeSpeed: 90,
+    backSpeed: 90,
+    loop: true
+});
+
+//  FOr checking the input Empty Value Condition
+const notEmptyEl = document.getElementsByClassName("notEmpty");
+const respondPop = (event) => {
+    
+    let inputArray = Array.from(notEmptyEl);
+    if(inputArray[0].value === "" || inputArray[1].value === "" || inputArray[2].value === "" || inputArray[3].value === "" || inputArray[4].value === ""){
+        return false;
+    }else{
+        respondId.classList.add("popTransition");
+    }
+}
+
+//  For removing the popUp Message
+const removeResponse = () => {
+   respondId.classList.remove("popTransition");
+}
+
+//  For removing the inspect functanility
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
+
+</script>
+<div id="help">
+    <a target="_blank" href="https://chat.whatsapp.com/F0xRD45FH4gGJy4xWbzwFW"><i class="fab fa-whatsapp"></i></a>
+</div>
+</body>
+</html>
