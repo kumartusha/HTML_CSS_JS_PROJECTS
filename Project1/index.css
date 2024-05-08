@@ -24,10 +24,10 @@ font-weight: 700;
     color: var(--bg-color);
 }
 .wholeChange{
-    --bg-color: rgb(255, 204, 110);
-    --second-bg-color: rgb(255, 230, 155);
-    --text-color:  rgb(35, 34, 34);
-    --main-color: white;
+    --bg-color: rgb(97, 232, 207);
+  --second-bg-color: rgb(208, 251, 255);
+  --text-color: rgb(35, 34, 34);
+  --main-color: white;
 }
 html, body{
 height : 100%;
