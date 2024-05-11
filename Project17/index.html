@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>Document</title>
+        <link rel='stylesheet' href='index.css'>
+        <link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css'>
+        <script src='https://kit.fontawesome.com/7a4b62b0a4.js'crossorigin='anonymous'></script>
+
+</head>
+<body>
+
+<div class="container">
+
+    <form>
+        <input type="text" placeholder="Password" id="inputId">
+        <span id="displayContent"></span>
+    </form>
+</div>
+
+
+<!-- <script>
+    const inputIdEl = document.getElementById("inputId");
+    const displayContentEl = document.getElementById("displayContent");
+
+    inputIdEl.addEventListener("keyup",() => {
+        let inputValue = document.getElementById("inputId").value;     // Return the string
+        if(inputValue.length === 0){
+            return false;
+        }
+
+           if(inputValue.length > 0 && inputValue.length <= 3){
+            displayContentEl.innerHTML = "Password are Weak";
+            displayContentEl.style.color = "red";
+            inputIdEl.style.borderColor = " red";
+        }
+        else if(inputValue.length > 3  && inputValue.length <= 6){
+            displayContentEl.innerHTML = "Password are Medium";
+            displayContentEl.style.color = "yellow";
+            inputIdEl.style.borderColor = "yellow";
+           }
+           else if(inputValue.length > 6 && inputValue.length <= 9){
+            displayContentEl.innerHTML = "Password are Strong";
+            displayContentEl.style.color = "green";
+            inputIdEl.style.borderColor = "green";
+           }
+         
+    })
+</script> -->
+
+<script src="index.js"></script>
+</body>
+</html>
