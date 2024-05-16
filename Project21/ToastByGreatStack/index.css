@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+*{
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+html, body{
+height : 100%;
+width : 100%;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, #cfffc6, #87f6e0, #4ce5ff, #6eccff, #b6aafe);
+    position: relative;
+}
+.box{
+    padding: 20px;
+    /* background-color: white; */
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    display: flex;
+    gap: 20px;
+}
+
+.button{
+    padding: 5px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+#toastBox{
+    position: absolute;
+  bottom: 20px;
+  right: 20px;
+  overflow: hidden;
+  max-width: 320px;
+  width: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/*  CSS Code By Myself for the Toast Notification */
+
+.toast{
+    position: relative;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  transform: translateX(100%);
+  animation: anim 0.7s linear forwards;
+}
+@keyframes anim {
+      100%{
+        transform: translateX(0);
+      }
+}
+.toast i{
+    font-size: 30px;
+}
+
+.fa-check-circle{
+    color: green;
+}
+.fa-times-circle{
+    color: red;
+}
+.fa-exclamation-circle{
+    color: orange;
+}
+
+
+.toast::after{
+    content: "";
+  height: 5px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: green;
+  animation: animate 5s linear forwards;
+}
+
+@keyframes animate {
+    0%{
+        width: 100%;
+    }
+    100%{
+        width: 0%;
+    }
+}
+
+.toast.wrong::after{
+    background-color: red;
+}
+.toast.invalid::after{
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .toast{
+    position: relative;
+    width: 400px;
+    height: 80px;
+    background-color: white;
+    font-weight: 500;
+    margin: 15px 0;
+    box-shadow: 0 0 20px rgb(183, 183, 183);
+    display: flex;
+    align-items: center;
+    transform: translateX(100%);
+    animation: moveleft 0.7s linear forwards;
+}
+@keyframes moveleft {
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+.toast i{
+    margin: 0 20px;
+    font-size: 35px;
+    color: green;
+
+}
+.toast.wrong i{
+color: red;
+}
+.toast.invalid i{
+    color: orange;
+}
+
+.toast::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background-color: green;
+    animation: anim 6s linear forwards;
+}
+
+@keyframes anim{
+    100%{
+        width: 0;
+    }
+}
+.toast.wrong::after{
+    background-color: red;
+}
+
+.toast.invalid::after{
+    background-color: orange;
+} */
