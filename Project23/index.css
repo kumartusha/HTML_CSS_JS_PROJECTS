@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+*{
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+html, body{
+height : 100%;
+width : 100%;
+}
+#heroSection{
+    background-image: url(./images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+} 
+.mainContainer{
+    max-width: 1050px;
+    height: 100vh;
+    margin: 0px auto;
+    /* background-color: yellow; */
+    /* position: relative; */
+}
+
+.heroContent{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+
+}
+.heroContent img{
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+    width: 200px;
+    height: 200px;
+    animation: anim 4s linear infinite;
+
+}
+@keyframes anim{
+    0%{
+     bottom: 0;
+     opacity: 0;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
+}
+
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.timer div{
+    color: orange;
+}
+
+.textContent{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: absolute;
+    left: 0%;
+    top: 25%;
+    /* transform: translate(-50%,-50%); */
+} 
+.textContent h1{
+    font-size: 45px;
+    color: white;
+}
+.textContent p{
+    color: white;
+}
+.textContent h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+span{
+    color: orange;
+}
+.textContent button{
+    padding: 7px 16px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+button:hover{
+    cursor: pointer;
+}

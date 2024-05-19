@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>Document</title>
+        <link rel='stylesheet' href='index.css'>
+        <link rel='stylesheet' type='text/css' href='https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css'>
+        <script src='https://kit.fontawesome.com/7a4b62b0a4.js'crossorigin='anonymous'></script>
+</head>
+<body>
+
+
+
+  <section id="heroSection">
+
+       <div class="heroContent mainContainer">
+        
+         <div class="textContent">
+                  <p>Website is under Maintenance</p>
+                    <h1>We're <span>Launching</span> Soon</h1>
+
+                    <div class="timer">
+                        <h2> 
+                          <div id="day">00</div>
+                          Days
+                        </h2>
+                        <h2> 
+                          <div id="hour">00</div>
+                          Hours
+                        </h2>
+                        <h2> 
+                          <div id="minute">00</div>
+                          Minutes
+                        </h2>
+                        <h2> 
+                          <div id="second">00</div>
+                          Seconds
+                        </h2>
+                    </div>
+
+                    <button class="btn">Learn More</button>
+         </div>
+
+         <img src="./images/rocket.png" class="rocket">
+
+       </div>
+
+  </section>
+
+
+
+
+
+
+<!-- <header>
+  <nav class="navbar">
+        <div class="textContent mainContainer">
+          <h1>Tushar </h1>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Project</li>
+            <li>Life</li>
+            <li>And</li>
+          </ul>
+          <i class="fas fa-circle"></i>
+  
+        </div>
+        </nav>
+</header>
+ -->
+
+ 
+<!-- <script src='index.js'></script> -->
+<script>
+const dayEl = document.getElementById("day");
+const hourEl = document.getElementById("hour");
+const minuteEl = document.getElementById("minute");
+const secondEl = document.getElementById("second");
+
+let defDate;
+
+function timeupdate(){
+  console.log("I am update");
+  //  For getting the upcoming date which is 28th April
+   let countDownDate = new Date("Apr 28,2024 00:00:00").getTime();
+   let todayDate = new Date().getTime();
+
+   let launchDate = countDownDate - todayDate;
+   const seconds = Math.floor(launchDate / 1000);
+
+   const days = Math.floor(seconds / (3600 * 24));
+    const hours = Math.floor(seconds / 3600) % 24;
+    const minutes = Math.floor(seconds / 60) % 60;
+    const remainingSeconds = seconds % 60;
+
+   
+    dayEl.innerHTML = days.toString().padStart(2,"0");
+    hourEl.innerHTML = hours.toString().padStart(2,"0");
+    minuteEl.innerHTML = minutes.toString().padStart(2,"0");
+    secondEl.innerHTML = remainingSeconds.toString().padStart(2,"0");
+
+}
+setInterval(()=> {
+  timeupdate();
+},1000)
+
+
+</script>
+</body>
+</html>
