@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: red; */
+}
+
+.inputContainer input{
+    width: 100%;
+    color: #3700ff;
+    padding-left: 40px;
+    height: 35px;
+    border: 1px solid #3700ff;
+
+}
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    width: 600px;
+}
+
+.searchIcon{
+    position: relative;
+  left: 33px;
+  margin-left: -23px;
+  display: grid;
+  place-items: center;
+
+  /* position: relative;
+    left: 35px;
+    margin-left: -35px;
+    display: grid;
+    place-items: center; */
+}
+
+.productCard{
+    width: 680px;
+    min-height: 150px;
+    /* background-color: yellow; */
+    display: flex;
+    box-shadow: 0px 0px 7px #b9b9b9;
+}
+
+.imageContainer{
+    border-right: 1px solid black;
+    flex: 1;
+}
+.imageContainer img{
+    height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.contentContainer{
+    flex: 4;
+  padding: 16px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.contentContainer h1{
+    font-size: 22px;
+}
+.contentContainer p{
+    font-size: 15px;
+}
+.contentContainer button{
+    align-self: end;
+  padding: 5px 25px;
+  border-radius: 16px;
+  border: none;
+  background-color: #3700ff;
+  color: white;
+}
+.productContainer{
+    display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
