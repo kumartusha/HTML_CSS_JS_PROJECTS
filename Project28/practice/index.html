@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/7a4b62b0a4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <input type="date" name="date" id="dateId" />
+    <button onclick="calculate()">Submit</button>
+
+    <script>
+     function calculate(){
+        const dateId = document.getElementById("dateId");
+      let inputValue = dateId.value;
+        //  Date Function how to use 
+        console.log(inputValue);
+          console.log(new Date());                                 // Return the current date  
+          console.log(new Date().getDate());                      // return today date
+          console.log(new Date().getFullYear());                    // return current year
+          console.log(new Date().getMilliseconds());              // get current millisecond
+          console.log(new Date().getMonth());                      // Get current month
+          console.log(new Date().getMinutes());                    // get current minutes 
+          console.log(new Date(inputValue).getTime());            // get millisecond from 1970 to inputValue date
+          console.log(new Date("2003-11-22").getTime());           // get millisecond from 1970 to 22-11-2003
+          console.log(new Date("2003,Nov 22").getTime());           // get millisecond from 19700 to 22-11-2003 but due to different syntax this will give different response
+          console.log(new Date("2003-11-22").getTime() - new Date("Nov 22,2003 00:00:00").getTime()); 
+          // difference millisecond both the above equation
+          
+     }
+          
+    </script>
+  </body>
+</html>
