@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 62.5%;       /*Isse Hamari 1rem ki value 10px hojati hai*/
+}
+  
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  /* background-color: aqua; */
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(./developer.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container h1{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* .search{
+    display: flex;
+    width: 50%;
+  max-width: 60rem;
+}
+.search input{
+    border: none;
+  padding: 5px;
+  background-color: #cceaff;
+  width: 100%;
+} */
+
+
+.search {
+  display: flex;
+  width: 83%;
+  max-width: 51rem;
+  }
+  .search input {
+    padding: 0.5rem 1rem;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: none;
+  } 
+
+.search input:focus-visible{
+    outline: 2px solid #56b9ff;
+}
+.search button{
+    border: none;
+  padding: 7px;
+  font-size: 15px;
+  background-color: #91d1ff;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.search button:hover{
+    /* border: none;
+  padding: 7px; */
+  background-color: #60bdff;
+  cursor: pointer;
+  /* font-size: 15px; */
+}
+.search button:active{
+    /* border: none;
+  padding: 7px; */
+  background-color: #2aa6ff;
+  /* font-size: 15px; */
+}
+
+/*  Card Implementation */
+
+.hide{
+    display: none;
+}
+#profileContainer {
+  width: 100%;
+}
+.profile-box{
+  margin: 0px auto;
+    padding: 17px;
+    background-color: white;
+    max-width: 60rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    transition: 0.7s ease-in-out;
+    
+}
+.profile-box:hover{
+    box-shadow: 0px 0px 24px aqua;
+    transition: 0.7s ease-in-out;
+    transform: rotate(-2deg) scale(1.01);
+}
+.topSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.leftPart img{
+    border-radius: 30px;
+}
+.self h1{
+    color: black;
+    font-size: 18px;
+}
+.self h3{
+    color: black;
+    font-size: 14px;
+}
+
+.topSection button{
+    border: none;
+  padding: 7px;
+  margin-top: 0px;
+  font-size: 11px;
+  background-color: #91d1ff;
+  border-radius: 10px;
+  align-self: flex-start;
+
+}
+.topSection button:hover{
+    background-color: #4eb5ff;
+    cursor: pointer;
+}
+.topSection button:active{
+    background-color: #0d9aff;
+  }
+
+  .about h2{
+    font-size: 17px;
+  font-weight: bold;
+  }
+
+  .about p{
+    font-size: 14px;
+  letter-spacing: 1px;
+  }
+  .status{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+  .status h3{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .status p{
+    font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
