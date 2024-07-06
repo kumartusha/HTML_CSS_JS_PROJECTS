@@ -13,7 +13,7 @@ const profileData = {
       address: "Modinagar,Ghaziabad(UP)"
     }
   },
-  Profile: [
+  links: [
     { title: "Code Studio", src: "https://www.naukri.com/code360/profile/tushar4321" },
     { title: "Github", src: "https://github.com/kumartusha" },
     { title: "LinkedIn", src: "https://www.linkedin.com/in/tushar-kumar-670986226/" },
