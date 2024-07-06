@@ -13,7 +13,7 @@ const profileData = {
       address: "Modinagar,Ghaziabad(UP)"
     }
   },
-  links: [
+  Profile: [
     { title: "Code Studio", src: "https://www.naukri.com/code360/profile/tushar4321" },
     { title: "Github", src: "https://github.com/kumartusha" },
     { title: "LinkedIn", src: "https://www.linkedin.com/in/tushar-kumar-670986226/" },
@@ -25,7 +25,7 @@ const profileData = {
       alma: "Dr. K. N. Modi Institute of Engineering and Technology",
       duration: "2021 - 2025",
       std: "B.Tech. (Computer Science & Engineering)",
-      score: "7.5 CGPA"
+      score: "8.18 CGPA"
     },
     {
       alma: "Tulsi Ram Maheshwari Public School",
