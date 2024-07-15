@@ -36,8 +36,8 @@ const profileData = {
   ],
   skills: [
     {
-      category: "Languages",
-      topics: ["HTML", "CSS" ,"SQL (Structured Query Language)"]
+      category: "Languages & Framework",
+      topics: ["HTML", "CSS" ,"SQL (Structured Query Language)","ReactJS"]
     },
     {
       category: "Programming Languages",
