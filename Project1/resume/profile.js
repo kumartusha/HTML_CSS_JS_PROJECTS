@@ -13,6 +13,7 @@ const profileData = {
       address: "Modinagar,Ghaziabad(UP)",
     },
   },
+
   links: [
     {
       title: "LinkedIn",
@@ -24,7 +25,6 @@ const profileData = {
       title: "Hacker Rank",
       src: "https://www.hackerrank.com/profile/kumartushar78867",
     },
-  
   ],
   education: [
     {
@@ -71,7 +71,7 @@ const profileData = {
       category: "Course Work",
       topics: [
         "Data Structures and Algorithm",
-        "Object-Oriented Programming (OOP)",
+        "OOPs Concept",
       ],
     },
   ],
