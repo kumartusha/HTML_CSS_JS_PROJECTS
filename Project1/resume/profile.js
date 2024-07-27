@@ -10,93 +10,141 @@ const profileData = {
     contact: {
       email: "kumartushar78867@gmail.com",
       phone: "+91-8057184462",
-      address: "Modinagar,Ghaziabad(UP)"
-    }
+      address: "Modinagar,Ghaziabad(UP)",
+    },
   },
   links: [
-    { title: "Code Studio", src: "https://www.naukri.com/code360/profile/tushar4321" },
+    {
+      title: "LinkedIn",
+      src: "https://www.linkedin.com/in/tushar-kumar-670986226/",
+    },
+
     { title: "Github", src: "https://github.com/kumartusha" },
-    { title: "LinkedIn", src: "https://www.linkedin.com/in/tushar-kumar-670986226/" },
-    { title: 'HackerRank', src: "https://www.hackerrank.com/profile/kumartushar78867" }
-    // { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' },
+    {
+      title: "Hacker Rank",
+      src: "https://www.hackerrank.com/profile/kumartushar78867",
+    },
+  
   ],
   education: [
     {
       alma: "Dr. K. N. Modi Institute of Engineering and Technology",
       duration: "2021 - 2025",
       std: "B.Tech. (Computer Science & Engineering)",
-      score: "8.18 CGPA"
+      score: "8.18 SGPA",
     },
     {
       alma: "Tulsi Ram Maheshwari Public School",
-      duration: "2019 - 2021",
+      duration: "2020 - 2021",
       std: "Class XII (PCM)",
-      score: "8.2 CGPA"
+      score: "7.82 SGPA",
     },
   ],
   skills: [
     {
       category: "Languages & Framework",
-      topics: ["HTML", "CSS" ,"SQL (Structured Query Language)","ReactJS"]
+      topics: [
+        "HTML5",
+        "CSS3",
+        "SQL (Structured Query Language)",
+        "ReactJS",
+        "TailwindCSS",
+      ],
     },
     {
       category: "Programming Languages",
-      topics: ["C", "C++", "JavaScript","Java"]
+      topics: ["C++", "JavaScript", "Core Java"],
     },
     {
-      category: "Frontend Development Tools",
+      category: "Development Tools & Services",
       topics: [
         "Visual Studio Code",
-        "GitHub",
+        "Git & GitHub",
         "npm(Node Package Manager)",
-        "Postman",
         "Figma",
         "Vercel",
-      ]
+        "Vite",
+        "Firebase",
+      ],
     },
     {
       category: "Course Work",
-      topics: ["Data Structures and Algorithm", "OOPS Concept", "Operating System","Database Management System","Computer Network"]
+      topics: [
+        "Data Structures and Algorithm",
+        "Object-Oriented Programming (OOP)",
+      ],
     },
   ],
+  // hobbies: [
+  //   {
+  //     category: "Course Work",
+  //     topics: [
+  //       "Data Structures and Algorithm",
+  //       "Object-Oriented Programming (OOP)",
+  //     ],
+  //   },
+  // ],
   projects: [
-    {
-      title: "Ecommerce Website",
-      duration: "Feb 2024",
-      link: "https://github.com/kumartusha/Ecommerce_Website",
-      desc: `
-      A ecommerce website utilizes <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>Vanilla JavaScript</strong> to provide a seamless shopping experience. Leveraging <strong>JSON data</strong> for product details, users can easily browse and purchase items. With interactive features powered by JavaScript, such as increasing quantity, customers can customize their shopping experience to suit their needs.Web-Application standards including <strong>Full-responsiveness</strong>  <a href="https://ecommerce-modern-website.netlify.app/" target="__blank"><strong style="color: rgb(0, 145, 255);">(Demo)</strong></a>
-      `
-    },
-    {
-      title: "Expense Tracker Web",
-      duration: "Jan 2024",
+{
+      title: "Tic-Tac-Toe Game",
+      duration: "",
       link: "https://github.com/kumartusha/HTML_CSS_JS_PROJECTS",
       desc: `
-      Introducing our expense tracker app, built using <strong>HTML5</strong>,<strong>CSS3</strong>, and powered by <strong>JavaScript</strong>. Seamlessly track your expenses on any device with our fully responsive design. Easily add, edit, and delete expenses to create a comprehensive list, while our app automatically calculates your <strong>total expenses</strong>, ensuring you stay on top of your finances effortlessly.<a href="https://expenses-tracker-simple-website.netlify.app/" target="__blank"><strong style="color: rgb(0, 145, 255);">(Demo)</strong></a>
-      `
+       ▪ Developed a classic Tic Tac Toe game with <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>Javascript</strong>.<br>
+       ▪ It features a stylish, <strong>responsiveness</strong> design and <strong>dynamic</strong> game mechanics.<br>
+       ▪ Provide an easy-to-use interface with simple grid interactions and fun gameplay.
+       <a href="https://tictactoe-teal-omega.vercel.app/" target="__blank"><strong style="color: rgb(0, 145, 255);">(Demo)</strong></a>
+      `,
+      // `
+      // Introducing our expense tracker app, built using <strong>HTML5</strong>,<strong>CSS3</strong>, and powered by <strong>JavaScript</strong>. Seamlessly track your expenses on any device with our fully responsive design. Easily add, edit, and delete expenses to create a comprehensive list, while our app automatically calculates your <strong>total expenses</strong>, ensuring you stay on top of your finances effortlessly.<a href="https://expenses-tracker-simple-website.netlify.app/" target="__blank"><strong style="color: rgb(0, 145, 255);">(Demo)</strong></a>
+      //  `,
     },
     {
-      title: "Study Buddy Project",
-      duration: "Jun 2023",
-      link: "https://github.com/kumartusha/Study-Buddy-Project",
-      desc: `
-      Developed a dynamic <strong>Study Buddy Project</strong> using <strong>Core Java</strong>, <strong>Java Swing</strong>, and <strong>SQL</strong>, featuring dual user and admin functionalities. Users seamlessly access and download educational materials uploaded by <strong>Admin</strong>, ensuring a streamlined learning experience. Proficiently managed database integration for robust <strong>data storage</strong> and <strong>retrieval</strong>. This project showcases expertise in <strong>Java programming</strong>, <strong>UI design</strong>, and <strong>database management</strong>, underscoring adept problem-solving and technical proficiency
-      `
-    }
+      title: "Ecommerce Website",
+      duration: "",
+      link: "https://github.com/kumartusha/Ecommerce_Website",
+      desc: 
+      // `
+      // A ecommerce website utilizes <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>Vanilla JavaScript</strong> to provide a seamless shopping experience. Leveraging <strong>JSON data</strong> for product details, users can easily browse and purchase items. With interactive features powered by JavaScript, such as increasing quantity, customers can customize their shopping experience to suit their needs.Web-Application standards including <strong>Full-responsiveness</strong>  <a href="https://ecommerce-modern-website.netlify.app/" target="__blank"><strong style="color: rgb(0, 145, 255);">(Demo)</strong></a>
+      // `,
+      `▪ This E-commerce website clone, built with <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>Vanilla JavaScript</strong>.<br>▪ Features having like <strong>adding</strong> and <strong>removing</strong> items from cart and leverage <strong>JSON</strong> data for product details.<br> <strong>▪ Local storage</strong> for real-time data saving, all while ensuring <strong>Full responsiveness</strong>. <a href="https://ecommerce-modern-website.netlify.app/" target="__blank"><strong style="color: rgb(0, 145, 255);">(Demo)</strong></a>`,
+    },
+    {
+      title: "Gemini AI Clone",
+      duration: "",
+      link: "https://github.com/kumartusha/gemini-clone",
+      // desc: `
+      // Developed a dynamic <strong>Study Buddy Project</strong> using <strong>Core Java</strong>, <strong>Java Swing</strong>, and <strong>SQL</strong>, featuring dual user and admin functionalities. Users seamlessly access and download educational materials uploaded by <strong>Admin</strong>, ensuring a streamlined learning experience. Proficiently managed database integration for robust <strong>data storage</strong> and <strong>retrieval</strong>. This project showcases expertise in <strong>Java programming</strong>, <strong>UI design</strong>, and <strong>database management</strong>, underscoring adept problem-solving and technical proficiency
+      // `,
+         desc:
+         `▪ Developed a Generative AI app using Google <strong>Gemini API</strong> and <strong>ReactJS</strong>. <br>
+          ▪ <strong>Features:-</strong> AI-driven content generation with Google Gemini API and build <strong>Responsive</strong> & User-friendly interface designed with <strong>ReactJS</strong>. 
+          <a href="https://gemini-clone-one-ashy.vercel.app/" target="__blank"><strong style="color: rgb(0, 145, 255);">(Demo)</strong></a>`
+         ,
+
+    },
+    {
+      title: "Netflix Web Clone",
+      duration: "",
+      link: "https://github.com/kumartusha/Netflix-Clone",
+      desc:`
+      ▪ Developed a Netflix clone website using <strong>ReactJS</strong>, <strong>TMDB API</strong>, and <strong>Firebase</strong>, featuring dynamic movie details.<br>
+      ▪ <strong>ReactJS</strong> to create a Netflix-like user interface, Integrated <strong>TMDB API</strong> for dynamic content display, Developed user authentication using <strong>Firebase</strong>.
+      `,
+
+    },
   ],
   experiences: [
     {
-      organization: "Unified Mentor",
+      organization: `Unified Mentor`,
       title: `Web Developer Intern`,
-      date: "Oct 2023 - Jan 2024",
+      date: "",
       details: [
-        // `As a part of the Pricing and Promotion Team, I am currently working on the migration of legacy projects from the AngularJS codebase 
-        // to <strong>React-Redux</strong> codebase with a whole new design by developing a React-based UI component library and utilities, 
-        // which are being used across different projects.`,
-        // `Other responsibilities involve adding new features, and patching/fixing bugs on existing features as well as on-call issues.`
-        `Successfully completed a 3-month intensive training and internship program with Unified Mentor, specializing in fundamental web development technologies like <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Javascript</strong>. Demonstrated proficiency by independently conceptualizing and developing various <strong>Web-based projects</strong>, showcasing problem-solving abilities. Eager to apply acquired skills and contribute to impactful projects in a professional setting.<a href="https://www.unifiedmentor.com/verifyumint.html?umid=UM20230890" target="__blank"><strong style="color: rgb(0, 145, 255);">(Credential)</strong></a>`
-      ]
+        // `Successfully completed a 3-month intensive training and internship program with Unified Mentor, specializing in fundamental web development technologies like <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Javascript</strong>. Demonstrated proficiency by independently conceptualizing and developing various <strong>Web-based projects</strong>, showcasing problem-solving abilities. Eager to apply acquired skills and contribute to impactful projects in a professional setting.<a href="https://www.unifiedmentor.com/verifyumint.html?umid=UM20230890" target="__blank"><strong style="color: rgb(0, 145, 255);">(Credential)</strong></a>`
+        `Completed <strong>3-Months</strong> training and internship in Web Development where I learn about <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>Javascript</strong> and
+         Developed <strong>Web Projects</strong> independently, showcasing problem-solving skills
+         Applied <strong>theoretical</strong> knowledge to practical scenarios.`,
+      ],
     },
     // {
     //   organization: "Mobile Premier League",
@@ -157,15 +205,15 @@ const profileData = {
     {
       desc: `<strong>Git and Github For Beginners </strong> by <strong>IBM</strong>.
       (<a target='_blank' rel='noreferrer' href='https://skills.yourlearning.ibm.com/certificate/share/ff2a17f859ewogICJsZWFybmVyQ05VTSIgOiAiMTcxNjU2OVJFRyIsCiAgIm9iamVjdFR5cGUiIDogIkFDVElWSVRZIiwKICAib2JqZWN0SWQiIDogIlVSTC1SR09KNVlIN0VWSyIKfQ36f68afcbd-10'>https://ibmskillbuild/X3HEdR</a>)`,
-      date: "15 August 2023"
+      date: "",
     },
     {
       desc: `<strong>Introduction to Pointers in C++</strong> by <strong>Coding Ninja</strong>
        (<a target='_blank' rel='noreferrer' href='https://ninjasfiles.s3.amazonaws.com/certificate-428152-330ece73e188c81533033d7362165b24.pdf'>
        https://goo.gl/X3HEdR</a>)`,
-      date: "20 May 2023"
-    }
+      date: "",
+    },
   ],
 
-  events: []
+  events: [],
 };

@@ -115,10 +115,14 @@ strong {
 
 .info-row {
   width: 100%;
+  margin: 7px 0 10px 0;
+}
+.lineHeight-row{
+  line-height: 1.2;
 }
 
 .cat-header {
-  padding: 0.5rem 0;
+  padding: 0.2rem 0;
   font-size: 1.1rem;
   display: flex;
   align-items: center;
@@ -143,9 +147,9 @@ strong {
 }
 
 /* Lists */
-.cat-list-body {
-  padding-bottom: 1rem;
-}
+/* .cat-list-body { */
+  /* padding-bottom: 0.5rem; */
+/* } */
 .cat-list-body ul {
   padding-left: 18px;
   margin: 0;
@@ -206,6 +210,7 @@ strong {
   color: #444;
   padding: 4px 0 4px 16px;
   border-left: 2px solid beige;
+  line-height: 1.4;
 }
 
 /* Skills */
@@ -305,6 +310,7 @@ strong {
 
 .expDet {
   list-style-type: disc !important;
+  /* list-style-type: disclosure-closed; */
   color: #444;
   padding: 4px 0 4px 16px;
   /* font-style: italic; */

@@ -195,7 +195,7 @@ const setExperience = experiences => {
 
     const expTitle = document.createElement('span');
     expTitle.className = 'exp-title';
-    expTitle.innerHTML = `${exper.title}, (${exper.date})`;
+    expTitle.innerHTML = `${exper.title}`;
     expSub.appendChild(expTitle);
 
     // const expDura = document.createElement('span');
@@ -213,7 +213,7 @@ const setExperience = experiences => {
 
       exper.details.forEach(dText => {
         const detItem = document.createElement('li');
-        detItem.style.listStyle = 'square';
+        detItem.style.listStyle = 'disclosure-closed';
         detItem.innerHTML = dText;
         expDetails.appendChild(detItem);
       });
