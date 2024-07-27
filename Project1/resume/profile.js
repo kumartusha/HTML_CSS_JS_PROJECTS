@@ -25,6 +25,10 @@ const profileData = {
       title: "Hacker Rank",
       src: "https://www.hackerrank.com/profile/kumartushar78867",
     },
+    {
+      title: "Code Studio",
+      src: "https://www.naukri.com/code360/profile/a16a43e2-a08b-43d7-8158-0ec0b06fae14",
+    },
   ],
   education: [
     {
