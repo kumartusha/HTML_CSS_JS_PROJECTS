@@ -28,7 +28,7 @@ a {
   padding: 0.3rem 0.7rem;
   border: none;
   border-radius: 0.8rem;
-  background-color: #0087ff;
+  background-color: rgb(49, 115, 187);
   color: white;
 }
 
@@ -40,7 +40,7 @@ strong {
   padding: 10px 15px;
   /* padding: 0; */
   margin: 0 auto;
-  max-width: 55rem;
+  max-width: 60rem;
   background-color: #fff;
 }
 
@@ -103,9 +103,9 @@ strong {
 }
 
 .info-left {
-  flex: 1;
+  flex: 2;
   border-right: 2px solid #f5f5f5;
-  padding-right: 1rem;
+  padding-right: 0rem;
 }
 .hobbies{
   margin-top: 10px;
@@ -153,16 +153,65 @@ strong {
 /* .cat-list-body { */
   /* padding-bottom: 0.5rem; */
 /* } */
-.cat-list-body ul {
+.cat-list-body1 ul {
   padding-left: 18px;
   margin: 0;
   list-style-type: circle;
+  line-height: 1.8;
+}
+.cat-list-body ul {
+  padding-left: 18px;
+  margin: 0;
+  list-style-type: disclosure-closed;
+  /* line-height: 0.2; */
 }
 
 .cat-list-body li {
   padding: 0.4rem 0;
   padding-left: 0.6rem;
 }
+
+/* Hobbies */
+.info-row-hobbies {
+  width: 100%;
+  margin: 7px 0 10px 0;
+}
+.cat-header-hobbies {
+  padding: 0.2rem 0;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+.cat-indicator-hobbies {
+  color: #3173bb;
+}
+.cat-title-hobbies {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  vertical-align: text-bottom;
+  padding-left: 1rem;
+  color: #666;
+}
+/* .cat-list-body1 ul {
+  padding-left: 18px;
+  margin: 0;
+  list-style-type: circle;
+  line-height: 1.8;
+} */
+.cat-list-body-hobbies ul {
+  padding-left: 18px;
+  margin: 0;
+  list-style-type: circle;
+  display: flex;
+  /* line-height: 0.2; */
+}
+
+.cat-list-body-hobbies li {
+  padding: 0.4rem 0;
+  padding-left: 0.6rem;
+}
+
 
 /* Education */
 .edu-header,
@@ -175,7 +224,8 @@ strong {
 .project-title,
 .skill-title {
   font-weight: 600;
-  letter-spacing: 1px;
+  font-size: 18px;
+  letter-spacing: 0.4px;
   padding-right: 60px;
 }
 
@@ -191,7 +241,7 @@ strong {
 }
 
 .edu-std {
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.4px;
   color: #666;
 }
 
@@ -201,6 +251,7 @@ strong {
   background-color: #3173bb;
   color: #fff;
   border-radius: 20px;
+  
 }
 
 /* Project */
@@ -300,7 +351,7 @@ strong {
 }
 
 .ach-title {
-  width: 75%;
+  width: 100%;
   color: #444;
 }
 

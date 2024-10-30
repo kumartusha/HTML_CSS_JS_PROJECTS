@@ -66,6 +66,7 @@ const setEducation = education => {
     eduClassData.appendChild(eduStd);
 
     const eduScore = document.createElement('span');
+    // eduScore.className = 'edu-score1';
     eduScore.className = 'edu-score';
     eduScore.innerHTML = edu.score;
     eduClassData.appendChild(eduScore);
@@ -198,10 +199,10 @@ const setExperience = experiences => {
     expTitle.innerHTML = `${exper.title}`;
     expSub.appendChild(expTitle);
 
-    // const expDura = document.createElement('span');
-    // expDura.className = 'ach-duration';
-    // expDura.innerHTML = exper.date;
-    // expSub.appendChild(expDura);
+    // const expDuration = document.createElement('span');
+    // expDuration.className = 'exp-duration';
+    // expDuration.innerHTML = edu.duration;
+    // eduHeader.appendChild(expDuration);
 
     expItem.appendChild(expSub);
 
@@ -306,6 +307,30 @@ const setCatagoryHeader = title => {
   return catHeader;
 };
 
+// const setHobbies = hobbies => {
+//   const certList = document.getElementById('certList-hobbies');
+
+//   hobbies.forEach(evt => {
+//     const li = document.createElement('li');
+
+//     const achItem = document.createElement('div');
+//     achItem.className = 'ach-item';
+
+//     const achTitle = document.createElement('div');
+//     achTitle.className = 'ach-title';
+//     achTitle.innerHTML = evt.desc;
+//     achItem.appendChild(achTitle);
+
+//     const achDuration = document.createElement('div');
+//     achDuration.className = 'ach-duration';
+//     achDuration.innerHTML = evt.date;
+//     achItem.appendChild(achDuration);
+
+//     li.appendChild(achItem);
+//     certList.appendChild(li);
+//   });
+// };
+
 //  Entry Function, IIFE
 (() => {
   // Call functions to load profile
@@ -317,4 +342,5 @@ const setCatagoryHeader = title => {
   setEducation(profileData.education);
   setCertification(profileData.certifications);
   setEvents(profileData.events);
+  setHobbies(profileData.hobbies)
 })();
