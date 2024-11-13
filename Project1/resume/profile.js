@@ -1,7 +1,7 @@
 const profileData = {
   title: "Resume",
   name: "Tushar Kumar",
-  sub_title: "Data Analyst",
+  sub_title: "",
   logoURL: "assets/images/dp.jpg",
   about: {
     intro: `I am an innovative and passionate developer with a primary interest in <strong>JavaScript</strong>
