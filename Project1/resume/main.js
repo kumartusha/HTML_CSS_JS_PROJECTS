@@ -286,6 +286,32 @@ const setCertification = certifications => {
   });
 };
 
+//  Roles and Responsibility Part...
+
+const setCertification2 = certifications2 => {
+  const certList = document.getElementById('certList2');
+
+  certifications2.forEach(evt => {
+    const li = document.createElement('li');
+
+    const achItem = document.createElement('div');
+    achItem.className = 'ach-item';
+
+    const achTitle = document.createElement('div');
+    achTitle.className = 'ach-title';
+    achTitle.innerHTML = evt.desc;
+    achItem.appendChild(achTitle);
+
+    const achDuration = document.createElement('div');
+    achDuration.className = 'ach-duration';
+    achDuration.innerHTML = evt.date;
+    achItem.appendChild(achDuration);
+
+    li.appendChild(achItem);
+    certList.appendChild(li);
+  });
+};
+
 const setCatagoryHeader = title => {
   const catHeader = document.createElement('div');
   catHeader.className = 'cat-header';
@@ -341,6 +367,7 @@ const setCatagoryHeader = title => {
   setSkills(profileData.skills);
   setEducation(profileData.education);
   setCertification(profileData.certifications);
+  setCertification2(profileData.certifications2);
   setEvents(profileData.events);
   setHobbies(profileData.hobbies)
 })();

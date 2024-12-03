@@ -52,6 +52,17 @@ const profileData = {
     },
   ],
 
+  certifications2: [
+    {
+      desc: `Google Cloud <strong>Arcade</strong> Volunteer`,
+      date: "",
+    },
+    {
+      desc: `<strong>Technical Leadership</strong> for College Functions and Events`,
+      date: "",
+    },
+  ],
+
   //   Add the new Hobbies Array..
   hobbies: [
     {
@@ -92,6 +103,7 @@ const profileData = {
         "HTML5",
         "CSS3",
         "SQL",
+        "Django",
         "NumPy",
         "Pandas",
         "MatplotLib",
@@ -136,6 +148,16 @@ const profileData = {
   projects: [
 
     {
+      title: `Ecommerce Website <a href="https://github.com/kumartusha/Ecommerce_Website" target="__blank"><strong style="color: rgb(49, 115, 187);"><i class = "fas fa-external-link-alt"><i></strong></a>`,
+      duration: "",
+      link: "",
+      desc:
+        // `
+        // A ecommerce website utilizes <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>Vanilla JavaScript</strong> to provide a seamless shopping experience. Leveraging <strong>JSON data</strong> for product details, users can easily browse and purchase items. With interactive features powered by JavaScript, such as increasing quantity, customers can customize their shopping experience to suit their needs.Web-Application standards including <strong>Full-responsiveness</strong>  <a href="https://ecommerce-modern-website.netlify.app/" target="__blank"><strong style="color: rgb(0, 145, 255);">(Demo)</strong></a>
+        // `,
+        `▪ This E-commerce website clone, built with <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>Vanilla JavaScript</strong>.<br>▪ Features having like <strong>adding</strong> and <strong>removing</strong> items from cart and leverage <strong>JSON</strong> data for product details.<br> <strong>▪ Local storage</strong> for real-time data saving, all while ensuring <strong>Full responsiveness</strong>.`,
+    },
+    {
       title: `H.R. Analytics Dashboard <a href="https://github.com/kumartusha/HR_Analytics_DashBoard" target="__blank"><strong style="color: rgb(49, 115, 187);"><i class = "fas fa-external-link-alt"><i></strong></a>`,
       duration: "",
       // link: "https://github.com/kumartusha/Netflix-Clone",
@@ -148,17 +170,6 @@ const profileData = {
              Created <strong>visualizations</strong> for attrition by age, gender, education, salary, and job role.<br>
 
              Utilized calculated <strong>fields</strong> and <strong>measures</strong> for actionable <strong>HR insights</strong> on retention.`
-    },
-
-    {
-      title: `Ecommerce Website <a href="https://github.com/kumartusha/Ecommerce_Website" target="__blank"><strong style="color: rgb(49, 115, 187);"><i class = "fas fa-external-link-alt"><i></strong></a>`,
-      duration: "",
-      link: "",
-      desc:
-        // `
-        // A ecommerce website utilizes <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>Vanilla JavaScript</strong> to provide a seamless shopping experience. Leveraging <strong>JSON data</strong> for product details, users can easily browse and purchase items. With interactive features powered by JavaScript, such as increasing quantity, customers can customize their shopping experience to suit their needs.Web-Application standards including <strong>Full-responsiveness</strong>  <a href="https://ecommerce-modern-website.netlify.app/" target="__blank"><strong style="color: rgb(0, 145, 255);">(Demo)</strong></a>
-        // `,
-        `▪ This E-commerce website clone, built with <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>Vanilla JavaScript</strong>.<br>▪ Features having like <strong>adding</strong> and <strong>removing</strong> items from cart and leverage <strong>JSON</strong> data for product details.<br> <strong>▪ Local storage</strong> for real-time data saving, all while ensuring <strong>Full responsiveness</strong>.`,
     },
     {
       // https://github.com/kumartusha/HTML_CSS_JS_PROJECTS
