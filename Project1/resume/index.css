@@ -6,6 +6,7 @@ html {
   font-size: 100%;
   color: #000;
   position: relative;
+  /* font-family: "Times New Roman", Times, serif; */
 }
 
 * {
@@ -19,7 +20,7 @@ a {
 }
 
 /* Download Button */
-.download{
+.download {
   /* display: none; */
   cursor: pointer;
   position: absolute;
@@ -46,14 +47,13 @@ strong {
 
 .link-title {
   letter-spacing: 1px;
-  color: #444;
+  color: #000000;
 }
 
 .header {
   text-align: center;
   margin-bottom: 1.5rem;
   margin-top: 1rem;
-  
 }
 
 .profile-logo {
@@ -107,7 +107,7 @@ strong {
   border-right: 2px solid #f5f5f5;
   padding-right: 0rem;
 }
-.hobbies{
+.hobbies {
   margin-top: 10px;
 }
 
@@ -120,7 +120,7 @@ strong {
   width: 100%;
   margin: 7px 0 10px 0;
 }
-.lineHeight-row{
+.lineHeight-row {
   line-height: 1.2;
 }
 
@@ -141,7 +141,7 @@ strong {
   letter-spacing: 3px;
   vertical-align: text-bottom;
   padding-left: 1rem;
-  color: #666;
+  color: #000000;
 }
 
 .cat-def-body,
@@ -151,7 +151,7 @@ strong {
 
 /* Lists */
 /* .cat-list-body { */
-  /* padding-bottom: 0.5rem; */
+/* padding-bottom: 0.5rem; */
 /* } */
 .cat-list-body1 ul {
   display: grid;
@@ -163,11 +163,10 @@ strong {
   line-height: 1.8;
 }
 .cat-list-body ul {
-  
   padding-left: 18px;
   margin: 0;
   list-style-type: disclosure-closed;
-  /* line-height: 0.2; */
+  line-height: 1.33;
 }
 
 .cat-list-body li {
@@ -195,7 +194,7 @@ strong {
   letter-spacing: 3px;
   vertical-align: text-bottom;
   padding-left: 1rem;
-  color: #666;
+  color: #000000;
 }
 /* .cat-list-body1 ul {
   padding-left: 18px;
@@ -216,7 +215,6 @@ strong {
   padding-left: 0.6rem;
 }
 
-
 /* Education */
 .edu-header,
 .project-header {
@@ -235,7 +233,7 @@ strong {
 
 .edu-duration,
 .project-duration {
-  color: #666;
+  color: #000000;
   font-style: italic;
 }
 
@@ -246,7 +244,7 @@ strong {
 
 .edu-std {
   letter-spacing: 0.4px;
-  color: #666;
+  color: #000000;
 }
 
 .edu-score {
@@ -255,7 +253,6 @@ strong {
   background-color: #3173bb;
   color: #fff;
   border-radius: 20px;
-  
 }
 
 /* Project */
@@ -265,7 +262,7 @@ strong {
 
 .project-desc {
   /* margin-top: 8px; */
-  color: #444;
+  color: #000000;
   padding: 4px 0 4px 16px;
   border-left: 2px solid beige;
   line-height: 1.4;
@@ -347,20 +344,20 @@ strong {
 .exp-org {
   font-weight: 600;
   letter-spacing: 1px;
-  color: #444;
+  color: #000000;
 }
 
 .exp-title {
-  color: #666;
+  color: #000000;
 }
 
 .ach-title {
   width: 100%;
-  color: #444;
+  color: #000000;
 }
 
 .ach-duration {
-  color: #666;
+  color: #000000;
   font-style: italic;
   width: 15%;
   text-align: right;
@@ -369,7 +366,7 @@ strong {
 .expDet {
   list-style-type: disc !important;
   /* list-style-type: disclosure-closed; */
-  color: #444;
+  color: #000000;
   padding: 4px 0 4px 16px;
   /* font-style: italic; */
 }
@@ -471,7 +468,7 @@ strong {
   }
 
   .project-desc {
-    color: #444;
+    color: #000000;
     padding: 4px 0;
   }
 }

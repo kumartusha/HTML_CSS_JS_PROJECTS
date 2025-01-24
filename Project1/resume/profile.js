@@ -41,13 +41,13 @@ const profileData = {
   certifications: [
     {
       desc: `
-      <strong>Git</strong> and <strong>Github</strong> For Beginners by <strong>IBM</strong>.
-      <a href="https://skills.yourlearning.ibm.com/certificate/share/ff2a17f859ewogICJsZWFybmVyQ05VTSIgOiAiMTcxNjU2OVJFRyIsCiAgIm9iamVjdFR5cGUiIDogIkFDVElWSVRZIiwKICAib2JqZWN0SWQiIDogIlVSTC1SR09KNVlIN0VWSyIKfQ36f68afcbd-10" target="__blank"><strong style="color: rgb(49, 115, 187);"><i class = "fas fa-external-link-alt"><i></strong></a>`,
+      Intro of <strong>AI-ML</strong> by <strong>LinkedIn Learning</strong>.
+      <a href="https://www.linkedin.com/learning/certificates/bf3c6b8b73b14bc368dd9051db219dc62712f5c4acda333f4469f9fa5fd22235?trk=share_certificate" target="__blank"><strong style="color: rgb(49, 115, 187);"><i class = "fas fa-external-link-alt"><i></strong></a>`,
       date: "",
     },
     {
-      desc: `<strong>C++</strong> Fundamentals by Coding Ninjas.
-      <a href="https://files.codingninjas.in/certificate-429707-32d575596e2303b8b5cb77741c42aa81.pdf" target="__blank"><strong style="color: rgb(49, 115, 187);"><i class = "fas fa-external-link-alt"><i></strong></a>`,
+      desc: ` <strong>Git & Github</strong> by <strong>IBM</strong> Skill Build.
+      <a href="https://skills.yourlearning.ibm.com/certificate/share/ff2a17f859ewogICJsZWFybmVyQ05VTSIgOiAiMTcxNjU2OVJFRyIsCiAgIm9iamVjdFR5cGUiIDogIkFDVElWSVRZIiwKICAib2JqZWN0SWQiIDogIlVSTC1SR09KNVlIN0VWSyIKfQ36f68afcbd-10" target="__blank"><strong style="color: rgb(49, 115, 187);"><i class = "fas fa-external-link-alt"><i></strong></a>`,
       date: "",
     },
   ],
@@ -58,7 +58,7 @@ const profileData = {
       date: "",
     },
     {
-      desc: `<strong>Technical Leadership</strong> for College Functions and Events`,
+      desc: `<strong>Event Coordination</strong> for College Functions and Activities`,
       date: "",
     },
   ],
@@ -98,16 +98,20 @@ const profileData = {
 
   skills: [
     {
-      category: "Languages & Libraries",
+      category: "Languages,Library & Technique",
       topics: [
         "HTML5",
         "CSS3",
         "SQL",
-        "Django",
-        "NumPy",
+        "Flask",
+        "Streamlit",
         "Pandas",
         "MatplotLib",
         "Seaborn",
+        "Langchain",
+        "Scikit-learn",
+        "NLP",
+        "Tensorflow",
       ],
     },
     {
@@ -119,20 +123,21 @@ const profileData = {
       topics: [
         "Visual Studio Code",
         "Git & GitHub",
-        "Figma",
+        "Google Collab",
         "Vercel",
+        "Amazon Web Services (AWS)",
         "PowerBI",
-        "Microsoft Excel",
         "Jupyter Notebook",
       ],
     },
     {
       category: "Course Work",
       topics: [
+        "Artificial Intelligence(AI)",
+        "Machine Learning Algorithms",
         "Data Structures and Algorithms",
         "Object Oriented Programming",
-        "Operating System",
-        "Data Analysis & Visualization",
+        // "Data Analysis & Visualization",
       ],
     },
   ],
@@ -146,75 +151,59 @@ const profileData = {
   //   },
   // ],
   projects: [
-
     {
-      title: `Ecommerce Website <a href="https://github.com/kumartusha/Ecommerce_Website" target="__blank"><strong style="color: rgb(49, 115, 187);"><i class = "fas fa-external-link-alt"><i></strong></a>`,
+      title: `GenAI Cold Email Generator Model <a href="https://github.com/kumartusha/HR_Analytics_DashBoard" target="__blank"><strong style="color: rgb(49, 115, 187);"><i class = "fas fa-external-link-alt"><i></strong></a>`,
       duration: "",
-      link: "",
-      desc:
-        // `
-        // A ecommerce website utilizes <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>Vanilla JavaScript</strong> to provide a seamless shopping experience. Leveraging <strong>JSON data</strong> for product details, users can easily browse and purchase items. With interactive features powered by JavaScript, such as increasing quantity, customers can customize their shopping experience to suit their needs.Web-Application standards including <strong>Full-responsiveness</strong>  <a href="https://ecommerce-modern-website.netlify.app/" target="__blank"><strong style="color: rgb(0, 145, 255);">(Demo)</strong></a>
-        // `,
-        `▪ This E-commerce website clone, built with <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>Vanilla JavaScript</strong>.<br>▪ Features having like <strong>adding</strong> and <strong>removing</strong> items from cart and leverage <strong>JSON</strong> data for product details.<br> <strong>▪ Local storage</strong> for real-time data saving, all while ensuring <strong>Full responsiveness</strong>.`,
+      desc: `▪ Built an LLM & Gen AI project using <strong>Llama 3.1</strong> (LLM), <strong>Chromadb</strong> as a vector store, and <strong>LangChain</strong> for powerful processing.<br>
+▪ Developed with <strong>Streamlit</strong> to help software and <strong>AI services</strong> companies send personalized cold emails to potential clients.<br>
+▪ Leveraged <strong>LangChain</strong> and <strong>Chromadb</strong> to enhance email generation with relevant data.`,
     },
     {
-      title: `H.R. Analytics Dashboard <a href="https://github.com/kumartusha/HR_Analytics_DashBoard" target="__blank"><strong style="color: rgb(49, 115, 187);"><i class = "fas fa-external-link-alt"><i></strong></a>`,
+      title: `Neurodegenerative Disorder Prediction System <a href="https://github.com/kumartusha/Ecommerce_Sales_Data_Analysis_Project" target="__blank"><strong style="color: rgb(49, 115, 187);"><i class = "fas fa-external-link-alt"><i></strong></a>`,
       duration: "",
-      // link: "https://github.com/kumartusha/Netflix-Clone",
-      // desc: `
-      // ▪ Developed a Netflix clone website using <strong>ReactJS</strong>, <strong>TMDB API</strong>, and <strong>Firebase</strong>, featuring dynamic movie details.<br>
-      // ▪ <strong>ReactJS</strong> to create a Netflix-like user interface, Integrated <strong>TMDB API</strong> for dynamic content display, Developed user authentication using <strong>Firebase</strong>.
-      // `,
-      desc: `Developed an <strong>HR Analytics</strong> Dashboard in <strong>Power BI</strong> to track employee count, attrition rate, and tenure.<br>
-
-             Created <strong>visualizations</strong> for attrition by age, gender, education, salary, and job role.<br>
-
-             Utilized calculated <strong>fields</strong> and <strong>measures</strong> for actionable <strong>HR insights</strong> on retention.`
+      desc: `
+        ▪ Developed a  model using <strong>Support Vector Machine (SVM)</strong> to predict Parkinson's disease, achieving <strong>89% accuracy</strong>.<br/>
+▪ <strong>Preprocessed</strong> data by scaling features with <strong>StandardScaler</strong> and optimizing model performance through <strong>train-test split</strong>.</br>
+▪ Utilized <strong>SVC model</strong> to enhance prediction accuracy, <strong>leveraging</strong> key clinical features for effective <strong>disease diagnosis.</strong>`,
     },
+
     {
       // https://github.com/kumartusha/HTML_CSS_JS_PROJECTS
-      title: `Credit Card Financial Dashboard (Power BI) <a href="https://github.com/kumartusha/Credit_Card_Financial_Dashboard" target="__blank"><strong style="color: rgb(49, 115, 187);"><i class = "fas fa-external-link-alt"><i></strong></a>`,
+      title: `FakeFinder: AI-Driven News Verifier <a href="https://github.com/kumartusha/Credit_Card_Financial_Dashboard" target="__blank"><strong style="color: rgb(49, 115, 187);"><i class = "fas fa-external-link-alt"><i></strong></a>`,
       duration: "",
       link: "",
       desc: `
-           ▪ Created an <strong>interactive dashboard</strong> using <strong>SQL database</strong> to analyze <strong>transaction and customer data</strong>, delivering <strong>real-time insights</strong> for stakeholder decision-making.
-    <br>
-           ▪ Optimized <strong>data processing</strong> and <strong>analysis workflows</strong> for monitoring <strong>key metrics</strong> and <strong>trends</strong>.<br>
-           ▪ Provided <strong>actionable insights</strong> to <strong>stakeholders</strong>, enhancing <strong>data-driven decision-making</strong>.
+           ▪ Implemented a model using <strong>Logistic Regression</strong> with <strong>TF-IDF Vectorization</strong> for effective feature extraction.<br/>
+▪ Utilized <strong>NLTK</strong> for <strong>stopword removal</strong> and <strong>stemming</strong> to preprocess and clean textual data.<br/>
+▪ Achieved a <strong>97.91%</strong> accuracy by optimizing model performance through <strong>train-test splitting</strong> and rigorous evaluation.
           `,
     },
     {
-      title: `Ecommerce Sales Data Analysis Project <a href="https://github.com/kumartusha/Ecommerce_Sales_Data_Analysis_Project" target="__blank"><strong style="color: rgb(49, 115, 187);"><i class = "fas fa-external-link-alt"><i></strong></a>`,
+      title: `Brain Stroke Prediction Model <a href="https://github.com/kumartusha/Ecommerce_Website" target="__blank"><strong style="color: rgb(49, 115, 187);"><i class = "fas fa-external-link-alt"><i></strong></a>`,
       duration: "",
-      // link: "https://github.com/kumartusha/gemini-clone",
-      // desc: `
-      // Developed a dynamic <strong>Study Buddy Project</strong> using <strong>Core Java</strong>, <strong>Java Swing</strong>, and <strong>SQL</strong>, featuring dual user and admin functionalities. Users seamlessly access and download educational materials uploaded by <strong>Admin</strong>, ensuring a streamlined learning experience. Proficiently managed database integration for robust <strong>data storage</strong> and <strong>retrieval</strong>. This project showcases expertise in <strong>Java programming</strong>, <strong>UI design</strong>, and <strong>database management</strong>, underscoring adept problem-solving and technical proficiency
-      // `,
-      //  desc:
-      //  `▪ Developed a Generative AI app using Google <strong>Gemini API</strong> and <strong>ReactJS</strong>. <br>
-      //   ▪ <strong>Features:-</strong> AI-driven content generation with Google Gemini API and build <strong>Responsive</strong> & User-friendly interface designed with <strong>ReactJS</strong>.
-      //   <a href="https://gemini-clone-one-ashy.vercel.app/" target="__blank"><strong style="color: rgb(0, 145, 255);">(Demo)</strong></a>`
-      //  ,
-
-      desc: `
-        ▪ Optimized <strong>SQL queries</strong> for cumulative sales and customer retention metrics directly in <strong>Jupyter Notebook</strong>.<br>
-
-        ▪ Connected <strong>Python</strong> with <strong>MySQL</strong> using <strong>MySQL Connector</strong> for efficient data extraction and analysis.<br>
-
-        ▪ <strong>Visualized data trends</strong> and revenue distributions using <strong>Pandas</strong>, <strong>NumPy</strong>, <strong>Seaborn</strong>, and <strong>Matplotlib</strong>.
-        `,
+      link: "",
+      desc: `▪ Achieved <strong>95.5%</strong> accuracy in predicting stroke risks using <strong>XGBClassifier</strong>, <strong>LightGBM</strong>, and <strong>RandomForest</strong> models.<br>
+▪ Improved detection by tackling class imbalance with <strong>SMOTE</strong>, boosting both precision and recall.<br>
+▪ Tested various models like <strong>Logistic Regression</strong> and <strong>VC Models</strong> to ensure balanced and reliable predictions.`,
     },
-    
   ],
   experiences: [
+    // {
+    //   organization: `Cognifyz Technologies`,
+    //   title: `Machine Learning Intern`,
+    //   date: "",
+    //   details: [
+    //     // `Undergoing a 3-month training as a <strong>Data Science Trainee</strong>, specializing in <strong>Machine Learning</strong> using <strong>Python</strong>, <strong>Scikit-learn</strong>, <strong>TensorFlow</strong>, and <strong>Keras</strong>. Hands-on experience with <strong>NLP</strong> techniques (Text Processing, Sentiment Analysis) and proficient in <strong>SQL</strong> for data manipulation, preprocessing, and model deployment.`,
+    //     `Undergoing a 3-month training as a <strong>Data Science Trainee</strong>, specializing in <strong>Machine Learning</strong> with <strong>Python</strong>, <strong>Scikit-learn</strong>, <strong>TensorFlow</strong>, and <strong>Keras</strong>. Skilled in <strong>NLP</strong> (Text Processing, Sentiment Analysis) and proficient in <strong>SQL</strong> for data manipulation.`,
+    //   ],
+    // },
     {
       organization: `Anudip Foundation`,
-      title: `Data Analytics Trainee `,
+      title: `Data Science Trainee `,
       date: "",
       details: [
-        `Currently undergoing a <strong> 3-month </strong> Data Analytics training program, mastering tools for <strong> Data Analysis </strong> and <strong>Visualization </strong>. Proficient in <strong>Microsoft Excel</strong> for advanced data manipulation and <strong>Power BI</strong> for interactive dashboards. Skilled in <strong>Python</strong> with <strong>NumPy</strong>, <strong>SQL</strong> and <strong>Pandas</strong> for efficient data handling and analysis.
-
-`,
+        // `Undergoing a 3-month training as a <strong>Data Science Trainee</strong>, specializing in <strong>Machine Learning</strong> using <strong>Python</strong>, <strong>Scikit-learn</strong>, <strong>TensorFlow</strong>, and <strong>Keras</strong>. Hands-on experience with <strong>NLP</strong> techniques (Text Processing, Sentiment Analysis) and proficient in <strong>SQL</strong> for data manipulation, preprocessing, and model deployment.`,
+        `Undergoing a 3-month training as a <strong>Data Science Trainee</strong>, specializing in <strong>Machine Learning</strong> with <strong>Python</strong>, <strong>Scikit-learn</strong>, <strong>TensorFlow</strong>, and <strong>Keras</strong>. Skilled in <strong>NLP</strong> (Text Processing, Sentiment Analysis) and proficient in <strong>SQL</strong> for data manipulation.`,
       ],
     },
   ],
